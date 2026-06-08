@@ -1,0 +1,23 @@
+pipeline
+{
+agent any{
+stage('Build')
+{
+echo "Build the Application......"
+}
+stage('Test')
+{
+echo "Test the Application......"
+}
+stage('Compile')
+{
+echo "Compile the Application......"
+}
+stage('Deploy')
+{
+echo "Deploy the Application......"
+}
+
+}
+}
+
